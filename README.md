@@ -30,3 +30,8 @@ Page 4
 - 6 images displayed 3 wide and 2 down
 - A label for each image
 - Clicking on the image opens the source of that image in a new window
+
+Photo credits:  toptal.com
+                pexels.com
+                stock.adobe.com
+                ideogram.ai

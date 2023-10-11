@@ -2,10 +2,181 @@
 <html lang="en-US">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Page 2</title>
+        <title>Share your Experiences</title>
     </head>
     <body>
+        <div class="header-container">
+            <div class="logo">
+                <img src="abandoned-logo.png" alt="A logo featuring an illustration of an abandoned building being reclaimed by nature.">
+            </div>
+
+            <ul class="nav-links">
+                <li><a class="nav-item" href="index.html">Home</a></li>
+                <li><a class="nav-item" href="page2.html">Share</a></li>
+                <li><a class="nav-item" href="page3.html">Page 3</a></li>
+                <li><a class="nav-item" href="page4.html">Page 4</a></li>
+            </ul>
+        </div>
+
+        <div class="title-container">
+            <h1 class="title">Understanding the Allure</h1>
+        </div>
+
+            <img class="share" src="share.png" alt="A gnome in front of an abandoned house holding a sign that says Share Your Story.">
+
+
+        <div class="text-container">
+            <form action="/form-handling-url" method="post">
+                <fieldset>
+                    <div class="form-content">
+                        <h3 class="form-subtitle">Personal Information</h3>
+                        <div class="user-name">
+                            <label for="user-name">Your Name</label>
+                            <input type="text" id="user-name" name="user-name">
+                        </div>
+
+                        <div class="user-email">
+                            <label for="user-email">Your Email</label>
+                            <input type="email" id="user-email" name="user-email">
+                        </div>
+
+                        <h3 class="form-subtitle">Abandoned Place Details</h3>
+                        <div class="location">
+                            <label for="location">Location</label>
+                            <input type="text" id="location" name="location">
+                        </div>
+
+                        <div class="type-place">
+                            <label for="type-place">Type of Abandoned Place
+                                (such as house, factory, amusement park, etc.)
+                            </label>
+                            <input type="text" id="type-place" name="type-of-place">
+                        </div>
+                        <div class="date-explored">
+                            <label for="date-explored">Date of Exploration</label>
+                            <input type="date" id="date-explored" name="date-of-exploration">
+                        </div>
+                        <div class="duration">
+                            <label for="duration">Duration of Exploration</label>
+                            <input type="text" id="duration" name="duration-of-exploration">
+                        </div>
+
+                        <h3 class="form-subtitle">Share your Story</h3>
+                        <div class="experience">
+                            <p class="paragraph-text">Did you explore alone or with others?</p>
+                            <div class="radio-buttons">
+                                <div class="exp-button">
+                                    <input type="radio" id="alone" name="experience">
+                                    <label for="alone">Alone</label>
+                                </div>
+                                <div class="exp-button">
+                                    <input type="radio" id="with-friends" name="experience">
+                                    <label for="with-friends">With Friends</label>
+                                </div>
+                                <div class="exp-button">
+                                    <input type="radio" id="with-family" name="experience">
+                                    <label for="with-family">With Family</label>
+                                </div>
+                                <div class="exp-button">
+                                    <input type="radio" id="with-tour" name="experience">
+                                    <label for="with-tour">With a Tour Group</label>
+                                </div>
+                                <div class="exp-button">
+                                    <input type="radio" id="other-exp" name="experience">
+                                    <label for="other-exp">Other (please specify when you tell us your story below)</label>
+                                </div>
+                            </div>
+                            <p class="paragraph-text">What emotions did you feel during your exploration?</p>
+                            <div class="checkbox">
+                                <div class="emotion-checkbox">
+                                    <input type="checkbox" id="curiosity" name="emotion">
+                                    <label for="curiosity">Curiosity</label>
+                                </div>
+                                <div class="emotion-checkbox">
+                                    <input type="checkbox" id="happiness" name="emotion">
+                                    <label for="happiness">Happiness</label>
+                                </div>
+                                <div class="emotion-checkbox">
+                                    <input type="checkbox" id="excitement" name="emotion">
+                                    <label for="excitement">Excitement</label>
+                                </div>
+                                <div class="emotion-checkbox">
+                                    <input type="checkbox" id="fear" name="emotion">
+                                    <label for="fear">Fear</label>
+                                </div>
+                                <div class="emotion-checkbox">
+                                    <input type="checkbox" id="awe" name="emotion">
+                                    <label for="awe">Awe</label>
+                                </div>
+                                <div class="emotion-checkbox">
+                                    <input type="checkbox" id="Nostalgia" name="emotion">
+                                    <label for="nostalgia">Nostalgia</label>
+                                </div>
+                                <div class="emotion-checkbox">
+                                    <input type="checkbox" id="other-emotion" name="emotion">
+                                    <label for="other-emotion">Other (please specify when you tell us your story below)</label>
+                                </div>
+                            </div>
+                            <div class="story">
+                                <p class="paragraph-text">Describe your experience in detail.  What did you see, hear and feel?
+                                    Did you uncover any interesting artificats or stories related to the place?
+                                    Your narrative is valuable to us!
+                                </p>
+                                <textarea id="user-story" name="user-story"></textarea>
+                            </div>
+                            <div class="upload">
+                                <p class="paragraph-text">Feel free to upload any photo or videos from your exploration.
+                                    Please note that by submitting media, you grant us permission to share
+                                    them on this website.
+                                </p>
+                                <div class="media">
+                                    <label class="media-upload" for="media-upload"><input type="file" id="media-upload" name="media-upload">
+                                        Media Upload (optional)</label>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <label for="feature">Would you like your story to be featured on our website?</label>
+                                <select id="feature" name="feature">
+                                    <option>Yes, I'm comfortable sharing my experience and name.</option>
+                                    <option>Yes, I'm comfortable sharing my experience anonymously.</option>
+                                    <option>No, I prefer to keep my experience private.</option>
+                                </select>
+                            </div>
+                            <div class="checkbox">
+                                <div class="terms-conditions">
+                                    <input type="checkbox" id="permission" name="permission">
+                                    <label for="permission">By checking this box, I grant permission
+                                        for my story and media to be used for research and promotional purposes.
+                                    </label>
+                                </div>
+                                <div class="terms-conditions">
+                                    <input type="checkbox" id="terms" name="terms-and-conditions">
+                                    <label for="terms">By checking this box, you agree to our terms
+                                        and conditions and confirm that the information provided is
+                                        accurate to the best of your knowledge.
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="submit">
+                                <input type="submit" id="submit" name="submit-button">
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="button-container">
+            <button class="top"><a href="#top">Return to Top</a></button>
+        </div>
+
+        <div class="footer-container">
+            <p class="copyright-text">Copyright &copy theprincesbride for App Academy 2023</p>
+        </div>
+
 
     </body>
 </html>
