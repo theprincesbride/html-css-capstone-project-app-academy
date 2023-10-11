@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: #0d543c;
+
+}
+
+.header-container {
+    background-color:#00442d;
+    background-image: url('header-background.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    flex: 1 1 0;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    max-height: 150px;
+
+}
+
+.logo img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-height: 125px;
+    width: auto;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    font-family: 'Caveat Brush', Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:#f8f8e5;
+    text-decoration: none;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.nav-item:hover {
+    text-shadow: #FC0 5px 5px 20px;
+    font-size: 36px;
+}
+
+
+
+.title-container {
+    background-color:#28e4a5;
+    background-image: url('transparent-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    max-height: 300px;
+}
+
+
+
+.title {
+    font-family: 'Tangerine', Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: #f8f8e5;
+    text-shadow: 4px 4px 4px #212121;
+}
+ .text-container {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 0;
+    background-image: url('full-bloom.webp');
+    background-size: cover;
+    margin: 100px 100px 50px 100px;
+    padding: 50px 100px;
+    box-shadow: 0 4px 8px 0px rgb(0,0,0,0.2);
+    border: 5px solid #03a389;
+    border-radius: 10px;
+ }
+
+ .text-container:hover {
+    box-shadow: 0 8px 16px 0 rgb(0,0,0,0.2)
+ }
+
+ .paragraph-title {
+    font-family: 'Dancing Script', Georgia, 'Times New Roman', Times, serif;
+    color:#002522;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 1px 1px 2px #aaa;
+ }
+
+  .paragraph-subtitle {
+    text-align: center;
+ }
+
+ .subtitle-link {
+    text-decoration: none;
+    font-family: 'Alegreya', Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    color: #002522;
+    text-align: center;
+    text-shadow: 1px 1px 2px #aaa;
+ }
+
+ .subtitle-link:hover {
+    text-shadow: #FC0 1px 0px 10px;
+    font-size: 36px;
+ }
+
+ .paragraph-text {
+    font-family: 'Alegreya', Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:#002522;
+    text-align: center;
+    margin-top: 0;
+ }
+
+ .button-container {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+ }
+
+ .top a {
+    text-decoration: none;
+    color:#f8f8e5;
+ }
+
+ .top {
+    font-family: 'Caveat Brush', Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-shadow: #FC0 1px 0 10px;
+    background-color: #002522;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid #002522;
+}
+
+.top:hover {
+    text-shadow: #FC0 5px 5px 20px;
+    font-size: 36px;
+    box-shadow: 0 4px 8px 0px rgb(0,0,0,0.2);
+}
+
+.footer-container {
+    background-color:#002522;
+    display: flex;
+    flex: 1 1 0;
+    padding: 50px 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.copyright-text {
+    font-family: 'Alegreya', Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:aliceblue;
+    text-shadow: 1px 1px 2px blue, 0 0 1em yellow, 0 0 0.2em yellow;
+}
