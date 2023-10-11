@@ -36,3 +36,4 @@ Photo credits:  toptal.com
                 stock.adobe.com
                 ideogram.ai
                 https://www.obsidianurbexphotography.com/
+                abcnews.com
