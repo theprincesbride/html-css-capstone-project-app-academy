@@ -35,3 +35,4 @@ Photo credits:  toptal.com
                 pexels.com
                 stock.adobe.com
                 ideogram.ai
+                https://www.obsidianurbexphotography.com/
